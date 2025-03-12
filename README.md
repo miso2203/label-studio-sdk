@@ -66,7 +66,7 @@ from label_studio_sdk.label_interface import LabelInterface
 from label_studio_sdk.label_interface.create import labels
 
 project = ls.projects.create(
-    name="Project name",
+    title="Project name",
     description="Project description",
     label_config=LabelInterface.create({
       "image": "Image",
